@@ -1,19 +1,22 @@
-# EquinoxCoord - Flask
+# EquinoxCoord
 
 [![python](https://img.shields.io/badge/Python-3.10,_3.11-3776AB?logo=python&logoColor=white)](https://www.python.org) [![numpy](https://img.shields.io/badge/Numpy-2.0.0-013243?logo=numpy&logoColor=white)](https://numpy.org/) [![scipy](https://img.shields.io/badge/SciPy-1.14.0-8CAAE6?logo=scipy&logoColor=white)](https://scipy.org) [![skyfield](https://img.shields.io/badge/Skyfield-1.49-BD9354)](https://rhodesmill.org/skyfield) [![adjusttext](https://img.shields.io/badge/adjustText-1.2.0-8ED500)](https://github.com/Phlya/adjustText) [![timezonefinder](https://img.shields.io/badge/timezonefinder-6.5.2-blue)](https://github.com/jannikmi/timezonefinder)
 
 A Flask [demo website](https://equinoxcoord.pythonanywhere.com/) of [EquinoxCoord](https://github.com/claude-hao/equinox-coord.git).
 
+## Overview
+
+We are aiming to develop a user-friendly app to facilitate the research in history of 
+astronomy, providing a convenient approach to help researchers get important astronomical information
+in the past.
+
+## Features
+
+The first function of this app is to calculate the ICRS coordinates of two equinoxes and two solstices from several thousand years ago to several thousand years later.
+
 ## Usage
 
-- Run the Flask app locally in development mode
-
-```sh
-python3 -m pip install scipy skyfield Flask
-python3 run.py
-```
-
-- Use the script to get the coordinates (same as in [EquinoxCoord](https://github.com/claude-hao/equinox-coord.git))
+- Get the coordinates
 
 ```sh
 python3 -m pip install scipy skyfield
